@@ -1,0 +1,9 @@
+package: github.com/freneticmonkey/logr
+import:
+- package: github.com/aryann/difflib
+- package: github.com/davecgh/go-spew
+  version: ^1.1.0
+  subpackages:
+  - spew
+- package: github.com/fatih/color
+  version: ^1.5.0
